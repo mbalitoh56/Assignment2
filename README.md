@@ -10,11 +10,13 @@ This project creates a simple Linear Regression model in Rust using the `burn` l
 - Add these to your `Cargo.toml` file:
   ```toml
   [dependencies]
+  ```sh
  burn = { version = ”0.16.0”, features = [”wgpu”,”train”] }
  burn-ndarray = ”0.16.0”
  rand = ”0.9.0”
  rgb = ”0.8.50”
  textplots = ”0.8.6”
+  ```
  
 ### How to Run It
 1. Download or copy the code into a Rust project:
